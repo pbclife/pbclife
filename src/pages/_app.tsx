@@ -5,6 +5,7 @@ import useProgressBar from '@/hooks/useProgressBar';
 import '@/styles/globals.css';
 import type { AppProps } from 'next/app';
 import { Fira_Code, Inter } from 'next/font/google';
+import Script from 'next/script';
 
 const inter = Inter({
   display: 'block',
@@ -37,6 +38,8 @@ export default function App({ Component, pageProps }: AppProps) {
           </HeaderProvider>
         </ThemeProvider>
       </main>
+
+      <Script src='https://unpkg.com/lucide@latest' />
     </>
   );
 }

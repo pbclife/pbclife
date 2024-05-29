@@ -2,6 +2,8 @@ import Footer from '@components/footer';
 import Header from '@components/header';
 import Menu from '@components/menu';
 import Head from '@utilities/Head';
+
+import Script from 'next/script';
 import type { ComponentProps, FC } from 'react';
 
 export type LayoutProps = ComponentProps<'div'> & {

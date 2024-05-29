@@ -1,4 +1,5 @@
 import LinkComp from '@utilities/LinkComp';
+import * as lucide from 'lucide-react';
 import type { ComponentProps, FC, ReactNode } from 'react';
 
 type CardProps = {
@@ -18,6 +19,11 @@ const Card: FC<CardProps> = ({
   subTitle,
   href,
 }) => {
+
+  if(typeof Icon === 'string') {
+    Icon= lucide[Icon];
+  }
+
   return (
     <LinkComp href={href}>
       <div
