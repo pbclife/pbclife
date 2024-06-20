@@ -4,6 +4,7 @@ import GradientBG from '@utilities/GradientBg';
 import Logo from '@utilities/Logo';
 import StarUs from '@utilities/StarUs';
 import colors from 'tailwindcss/colors';
+import GoToTop from '../topbutton/GoToTop';
 import FooterList from './FooterList';
 import Slogun from './Slogun';
 
@@ -35,6 +36,7 @@ export default function Footer() {
           <FooterList />
         </div>
       </Container>
+      <GoToTop/>
     </footer>
   );
 }

@@ -20,6 +20,10 @@
   },
   "dependencies": {
     "@badrap/bar-of-progress": "^0.2.2",
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-regular-svg-icons": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@headlessui/react": "^1.7.7",
     "@heroicons/react": "^2.0.13",
     "@mdx-js/loader": "^2.2.1",
@@ -28,6 +32,7 @@
     "@types/node": "18.15.5",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
+    "@types/styled-components": "^5.1.26",
     "axios": "^1.2.2",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
@@ -46,6 +51,7 @@
     "remark-html": "^15.0.1",
     "remark-parse": "^10.0.1",
     "sharp": "^0.31.3",
+    "styled-components": "^5.3.9",
     "typescript": "5.0.2",
     "unified": "^10.1.2",
     "unist-util-map": "^3.1.3"
